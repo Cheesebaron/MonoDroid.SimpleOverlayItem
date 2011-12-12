@@ -1,4 +1,4 @@
-# MonoDroid.OverlayItem
+# MonoDroid.SimpleOverlayItem
 
 Simple sample project, which shows how OverlayItem works in Mono for Android.
 
