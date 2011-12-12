@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDroid.SimpleOverlayItem", "MonoDroid.OverlayItem\MonoDroid.SimpleOverlayItem.csproj", "{651C20F4-9721-4563-9E10-81B661E770F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDroid.SimpleOverlayItem", "MonoDroid.SimpleOverlayItem\MonoDroid.SimpleOverlayItem.csproj", "{651C20F4-9721-4563-9E10-81B661E770F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
