@@ -6,7 +6,7 @@ using Android.GoogleMaps;
 using Android.Graphics.Drawables;
 using Android.Graphics;
 
-namespace MonoDroid.TestOverlayItem
+namespace MonoDroid.SimpleOverlayItem
 {
     class MyItemizedOverlay : ItemizedOverlay
     {
@@ -30,7 +30,7 @@ namespace MonoDroid.TestOverlayItem
             get { return overlayItems; }
         }
 
-        protected override MyOverlayItem CreateItem(int index)
+        protected override Java.Lang.Object CreateItem(int index)
         {
             return overlayItems.ElementAt(index);
         }

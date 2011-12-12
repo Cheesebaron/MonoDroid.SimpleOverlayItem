@@ -1,1 +1,0 @@
-c:\users\tcielecki\documents\visual studio 2010\Projects\MonoDroid.TestOverlayItem\MonoDroid.TestOverlayItem\obj\Debug\ResolveAssemblyReference.cache

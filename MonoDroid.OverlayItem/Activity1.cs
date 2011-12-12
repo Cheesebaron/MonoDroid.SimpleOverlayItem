@@ -7,7 +7,7 @@ using Android.OS;
 using Android.GoogleMaps;
 using Android.Graphics.Drawables;
 
-namespace MonoDroid.TestOverlayItem
+namespace MonoDroid.SimpleOverlayItem
 {
     [Activity(Label = "MonoDroid.TestOverlayItem", MainLauncher = true, Icon = "@drawable/icon")]
     public class Activity1 : MapActivity

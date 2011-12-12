@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MonoDroid.TestOverlayItem
+namespace MonoDroid.SimpleOverlayItem
 {
 	
 	

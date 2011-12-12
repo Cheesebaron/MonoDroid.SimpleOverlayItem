@@ -1,6 +1,6 @@
 using Android.GoogleMaps;
 
-namespace MonoDroid.TestOverlayItem
+namespace MonoDroid.SimpleOverlayItem
 {
     class MyOverlayItem : OverlayItem
     {
