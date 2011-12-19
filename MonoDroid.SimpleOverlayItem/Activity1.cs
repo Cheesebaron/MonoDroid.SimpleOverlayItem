@@ -19,6 +19,7 @@ namespace MonoDroid.SimpleOverlayItem
         {
             base.OnCreate(bundle);
 
+            //Read more about obtaining a Maps Key here: http://docs.xamarin.com/android/advanced_topics/Obtaining_a_Google_Maps_API_Key
             mapView = new MapView(this, "<your key here>");
             mapView.LayoutParameters = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FillParent, ViewGroup.LayoutParams.FillParent);
             mapView.Satellite = true;
@@ -29,6 +30,12 @@ namespace MonoDroid.SimpleOverlayItem
             myItemizedOverlay = new MyItemizedOverlay(this, marker);
             mapView.Overlays.Add(myItemizedOverlay);
             mapView.PostInvalidate();
+
+            GeoPoint point = new GeoPoint((int)(55.785213 * 1E6), (int)(12.522182 * 1E6)); //DTU
+            myItemizedOverlay.AddOverlayItem(new OverlayItem(point, "DTU", "Anker Engelunds Vej 101"));
+
+            point = new GeoPoint((int)(55.816034 * 1E6), (int)(12.532547 * 1E6));
+            myItemizedOverlay.AddOverlayItem(new OverlayItem(point, "Brüel & Kjær", "Skodsborgvej 307C"));
         }
 
         protected override bool IsRouteDisplayed

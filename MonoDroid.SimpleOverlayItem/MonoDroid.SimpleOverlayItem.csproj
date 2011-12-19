@@ -52,7 +52,6 @@
   <ItemGroup>
     <Compile Include="Activity1.cs" />
     <Compile Include="MyItemizedOverlay.cs" />
-    <Compile Include="MyOverlayItem.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
